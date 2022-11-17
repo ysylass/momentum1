@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>jytpage</title>
+
+    <script src="index.js"></script>
+    <style>
+        @import url('http://fonts.googleapis.com/css2?family=Poppins:weht@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        } 
+        
+        body {
+            background-image: url("https://notagamer.net/wp-content/uploads/2022/09/photo-1-1596886034745547676.jpg");
+            background-position: center;
+            
+
+            color: white;
+        }
+
+        .time {
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        .greeting {
+            font-size: 50px;
+        }
+        
+        .todo {
+            font-size: 20px;
+        }
+
+        .author {
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .content {
+            font-size: 50px;
+        }
+
+        .main {
+            width: 100vw;
+            height: 80vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote {
+            width: 100vw;
+            height: 20vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+<div class="main">
+    <div id="time" class="time">시간</div>
+    <div class="greeting">안녕하세요 장영태님</div>
+    <div class="todo"></div>
+</div>
+<div class="quote">
+    <div id="author" class="content">" 명언의 내용 "</div>
+    <div id="content" class="author">- 명언의 저자 -</div>
+</div>
+</body>
+
+</html>
